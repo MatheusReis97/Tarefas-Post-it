@@ -1,0 +1,132 @@
+body,
+html {
+  height: 100%;
+}
+
+@font-face {
+  font-family: "Rockets Kite";
+  src: url(fontes/Rockets\ Kite.otf);
+  font-family: "Copyduck";
+  src: url(fontes/Copyduck.otf);
+}
+
+main {
+  width: 100%;
+}
+
+.NomeMenu {
+  font-family: "Copyduck";
+}
+
+.pagina-login {
+  background-image: url("../img/post.jpg");
+  height: 98%;
+  padding: 0px;
+  margin: 0px;
+  background-size: cover;
+  background-position: center;
+}
+
+.login {
+  text-align: center;
+  align-items: center;
+  background-color: wheat;
+  padding: 5%;
+  margin-left: 36%;
+  margin-right: 36%;
+  margin-top: 6%;
+  border: 2px black inset;
+  border-radius: 5%;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: large;
+}
+
+input {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+}
+
+/* HOME - VIEWS */
+
+.home {
+  background-color: bisque;
+  width: 100%;
+  min-height: 100vh;
+} 
+
+.caixa-mensagem{
+  display: none;
+}
+
+.topo-suspenso {
+  align-items: center;
+  width: 100%;
+}
+
+.text-inicio {
+  text-align: left;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 10px;
+  background-color: rgb(207, 207, 207);
+  border-radius: 5px 10px 20px 30px;
+}
+
+.text-inicio p {
+  margin-top: 2%;
+  margin-left: 5%;
+}
+
+.caixa-saida {
+  position: relative;
+}
+.form-acao {
+  width: 0%;
+}
+
+.btn-sair {
+  margin-top: 10px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+/* criar Post-it */
+
+.criar-post {
+  margin-top: 2%;
+}
+
+.btn-group {
+  gap: 5px;
+}
+
+.card{
+  width: 100%;
+  height: 100%;
+  border: 3px black outset;
+  color: white;
+}
+
+.modal{
+  color: black;
+}
+
+
+.card-title{
+  text-align: center;
+}
+.card-text{
+  padding: 4%;
+  margin-bottom: 10%;
+  text-align: justify;
+  font-size: medium;
+
+}
+
+
+
+.card-footer{
+  width: 100%;
+  
+}
+
