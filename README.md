@@ -1,16 +1,70 @@
 # Tarefas-Post-it
- <hr>
-Para a criação do meu sistema de post-its utilizando Programação Orientada a Objetos (POO), implementei uma arquitetura que facilita a organização e reutilização do código. Utilizei PDO (PHP Data Objects) para realizar a conexão com o banco de dados de forma segura, com suporte para consultas preparadas através de "statements" (stmt), garantindo a proteção contra SQL Injection. As sessões (session) foram fundamentais para manter os dados de autenticação e controlar o fluxo do usuário dentro da aplicação. Além disso, fiz uso do include para modularizar o código, separando responsabilidades em diferentes arquivos, como configuração e lógica, proporcionando uma maior manutenção e clareza no projeto.
- <hr>
 
+<hr>
+Sistema simples de gerenciamento de tarefas com visual estilo post-it, desenvolvido em PHP utilizando Programação Orientada a Objetos (POO).
+<hr>
+
+### 🛠️ Tecnologias e Recursos
+
+Linguagem: PHP (versão 8+)
+
+Banco de Dados: MySQL
+
+Programação Orientada a Objetos (POO) – Organização e reutilização de código
+
+PDO (PHP Data Objects) – Conexão segura com o banco de dados usando prepared statements
+
+Sessions – Gerenciamento de autenticação e controle de acesso
+
+Includes – Separação de responsabilidades e modularização do projeto
+
+### 📋 Funcionalidades
+ - Login e autenticação de usuários
+
+ - CRUD de tarefas (Criar, Ler, Atualizar e Deletar)
+
+ - Tarefas organizadas por status: Aberto, Em andamento, Concluído
+
+ - Visual estilo Kanban (post-it)
+
+ - Controle de datas e prazos
+
+### 🚀 Como executar
+1 - Clone o repositório:
+
+```bash
+git clone https://github.com/seu-usuario/tarefas-post-it.git
+```
+
+2 - Configure o banco de dados (exemplo disponível em config.php)
+
+3 - Inicie o servidor local:
+
+```bash
+php -S localhost:8000
+```
+
+Acesse em http://localhost:8000
+
+
+### 📸 Imagens do Projeto
  
-![ÁREA LOGIN](https://raw.githubusercontent.com/MatheusReis97/Tarefas-Post-it/main/img-projeto/login.png)
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/MatheusReis97/Tarefas-Post-it/main/img-projeto/login.png" width="500" />
+</div>
 
 
  <hr>
 
-![ÁREA LOGIN](https://raw.githubusercontent.com/MatheusReis97/Tarefas-Post-it/main/img-projeto/adicionar.png)
+<div align="center">
+  <img src="https://raw.githubusercontent.com/MatheusReis97/Tarefas-Post-it/main/img-projeto/adicionar.png" width="500" />
+</div>
+
 
  <hr>
 
-![ÁREA LOGIN](https://raw.githubusercontent.com/MatheusReis97/Tarefas-Post-it/main/img-projeto/pagina.png)
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/MatheusReis97/Tarefas-Post-it/main/img-projeto/pagina.png" width="500" />
+</div>
